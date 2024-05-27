@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"h_arvs"
+		]
+	},
+	"header": {
+		"name": "Starter Kit",
+		"description": "",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "50123f6e-0ec4-4a4f-b07d-88ff683ecb21",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "7b06bfb7-b86f-474c-888c-7800bb58d603",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "3de211ac-4854-4e32-bb2c-207be8d279ff",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
